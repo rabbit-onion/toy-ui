@@ -4,10 +4,41 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TOY PROJECT</title>
-    <link rel="stylesheet" href="../resources/css/output/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=close"
+    />
+    <link rel="stylesheet" href="./resources/css/output/styles.css" />
+    <script defer src="./resources/js/popup.js"></script>
   </head>
   <body>
-    <h1>TOY</h1>
-    scss test . . .
+    <main id="main">
+      <div class="bg-cont">
+        <button>show modal</button>
+      </div>
+      <div class="overlay">
+        <div class="popup-container">
+          <div class="popup-title">
+            <div class="tit-heading">
+              <h2>팝업 제목</h2>
+              <span class="material-symbols-outlined"> close </span>
+            </div>
+            <p>옴션 라벨</p>
+          </div>
+          <div class="popup-cont">
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem
+              fugiat alias hic commodi! Tempore perferendis architecto commodi
+              quisquam sequi, iure beatae explicabo consectetur rem ad sed
+              recusandae optio voluptatibus consequatur?
+            </p>
+          </div>
+          <div class="popup-bottom">
+            <button>취소</button>
+            <button>확인</button>
+          </div>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
