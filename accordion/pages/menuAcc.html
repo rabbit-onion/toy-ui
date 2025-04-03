@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu Accordion</title>
+    <link
+      href="https://hangeul.pstatic.net/hangeul_static/css/nanum-gothic.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=keyboard_arrow_down"
+    />
+    <link rel="stylesheet" href="../resources/css/output/menuAccStyle.css" />
+    <script defer src="../resources/js/menuAcc.js"></script>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <ul class="menu-box">
+          <li class="active"><a href="#">첫번째 메뉴</a></li>
+          <li><a href="#">두번째 메뉴</a></li>
+          <li>
+            <a href="#"
+              >세번째 메뉴
+              <span class="material-symbols-outlined"
+                >keyboard_arrow_down</span
+              ></a
+            >
+            <ul class="depth2">
+              <li><a href="#">메뉴 3-1</a></li>
+              <li><a href="#">메뉴 3-2</a></li>
+              <li><a href="#">메뉴 3-3</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#"
+              >네번째 메뉴
+              <span class="material-symbols-outlined">
+                keyboard_arrow_down
+              </span>
+            </a>
+            <ul class="depth2">
+              <li><a href="#">메뉴 4-1</a></li>
+              <li><a href="#">메뉴 4-2</a></li>
+              <li><a href="#">메뉴 4-3</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </main>
+  </body>
+</html>
